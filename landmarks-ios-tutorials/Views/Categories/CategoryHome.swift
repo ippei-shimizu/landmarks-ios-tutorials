@@ -13,10 +13,22 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
+                modelData.features[0].image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(height: 200)
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+                
                 ForEach(modelData.categories.keys.sorted(), id:\.self) { category in
-                    Text(category)
+                    CategoryRow(categoryName: category, items: modelData.categories[category]!)
                 }
+                .listRowInsets(EdgeInsets())
+                .padding(.top, 20)
+                .padding(.bottom,18)
+                .padding(.leading, 15)
             }
+            .listStyle(GroupedListStyle())
             .navigationTitle("Featured")
         }
     }
