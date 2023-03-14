@@ -18,6 +18,7 @@
 		D91340ED29C048E600B0CADF /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91340E929C048E600B0CADF /* HikeGraph.swift */; };
 		D91340EE29C048E600B0CADF /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91340EA29C048E600B0CADF /* HikeDetail.swift */; };
 		D91340EF29C048E600B0CADF /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91340EB29C048E600B0CADF /* HikeView.swift */; };
+		D91340F229C04EEE00B0CADF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91340F129C04EEE00B0CADF /* CategoryHome.swift */; };
 		D954D91329BF1E770089EB79 /* landmarks_ios_tutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954D91229BF1E770089EB79 /* landmarks_ios_tutorialsApp.swift */; };
 		D954D91529BF1E770089EB79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954D91429BF1E770089EB79 /* ContentView.swift */; };
 		D954D91729BF1E790089EB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D954D91629BF1E790089EB79 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		D91340E929C048E600B0CADF /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		D91340EA29C048E600B0CADF /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		D91340EB29C048E600B0CADF /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		D91340F129C04EEE00B0CADF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		D954D90F29BF1E770089EB79 /* landmarks-ios-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "landmarks-ios-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D954D91229BF1E770089EB79 /* landmarks_ios_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarks_ios_tutorialsApp.swift; sourceTree = "<group>"; };
 		D954D91429BF1E770089EB79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		D91340F029C04ED100B0CADF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D91340F129C04EEE00B0CADF /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		D954D90629BF1E770089EB79 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D954D91429BF1E770089EB79 /* ContentView.swift */,
+				D91340F029C04ED100B0CADF /* Categories */,
 				D91340E729C048E600B0CADF /* Hikes */,
 				D91340E229C0381E00B0CADF /* Badges */,
 				D954D93729C02A890089EB79 /* Landmarks */,
@@ -248,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D954D91529BF1E770089EB79 /* ContentView.swift in Sources */,
+				D91340F229C04EEE00B0CADF /* CategoryHome.swift in Sources */,
 				D91340ED29C048E600B0CADF /* HikeGraph.swift in Sources */,
 				D954D92329BF21C10089EB79 /* MapView.swift in Sources */,
 				D954D91329BF1E770089EB79 /* landmarks_ios_tutorialsApp.swift in Sources */,
